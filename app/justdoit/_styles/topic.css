@@ -1,0 +1,81 @@
+.topics{
+	margin-top: 1rem;
+	font-family: var(--dynapuff);
+	position: relative;
+	width: 25%;
+	text-align: center;
+	overflow-y: scroll;
+	color: var(--white);
+}
+
+.topics > .input{
+	padding: 0.75rem;
+	margin: 0.75rem 0;
+	background-color: rgba(0,0,0,0.7);
+	border: 1px solid var(--white);
+	border-radius: 30px;
+	color: var(--white);
+}
+
+.topics .input > input{
+	background-color: transparent;
+}
+
+
+.topics ul{
+	position: relative;
+	text-align: center;
+	overflow-y: scroll;
+	font: var(--dynapuff);
+	color: var(--white);
+}
+
+.topics ul > li{
+	margin: 1rem 0;
+}
+
+.topic{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	padding: 0.75rem;
+	overflow: hidden;
+	border-radius: 30px;
+	border: 1px solid var(--white);
+	cursor: pointer;
+	color: var(--white);
+}
+
+.topic:hover{
+	transition-duration: 100ms;
+	font-size: 1.1rem;
+}
+
+.topic span{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+.title{
+	font-size: 1rem;
+	text-decoration: ellipsis;
+	outline: none;
+	text-transform: uppercase;
+	color: var(--white);
+}
+
+.icon{
+	cursor: pointer;
+}
+
+.delete{
+	color: red;
+}
+
+.target{
+	color: var(--green);
+}

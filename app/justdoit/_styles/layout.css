@@ -1,0 +1,22 @@
+body{
+	background-image: url('/jdi-bg.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: var(--dynapuff);
+}
+
+input{
+	width: 100%;
+	outline: none;
+	border: none;
+	color: var(--white);
+}
+
+ul{
+	list-style: none;;
+}
+
+main{
+	display: flex;
+	gap: 1rem;
+}

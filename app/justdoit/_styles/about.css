@@ -1,0 +1,26 @@
+.about{
+	position: fixed;
+	z-index: 2;
+	height: 300px;
+	width: 33.33333333%;
+	left: 33.33333333%;
+	top: 25%;
+	padding: 2.5rem;
+	overflow: hidden;
+	border: 1px solid var(--white);
+	border-radius: 30px;
+	color: white;
+	background: rgba(0,0,0,0.9)
+}
+
+.about > h3{
+	text-align: center;
+	font-family: var(--dynapuff);
+	text-transform: uppercase;
+}
+
+.about p{
+	text-align: center;
+	margin-top: 0.75rem;
+	font-family: var(--poppins);
+}

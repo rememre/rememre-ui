@@ -1,0 +1,82 @@
+ .goals{
+	 width: 25%;
+	 height: 100vh;
+	 background: transparent;
+	 color: var(--white);
+	 overflow-y: scroll;
+}
+
+.goals > ul{
+	position: relative;
+	text-align: center;
+	background: transparent;
+	overflow-y: scroll;
+	font: var(--dynapuff);
+	color: var(--white);
+}
+
+.goals > ul li{
+	padding: 1.5rem;
+}
+
+.goal{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1.25rem;
+	padding: 2.5rem;
+	position: relative;
+	overflow: hidden;
+	border-radius: 20px;
+	background: transparent;
+	color: var(--white);
+	border: 1px solid var(--white);
+}
+
+.goal > h2{
+	font-size: 1.5rem;
+	font: var(--dynapuff);
+	color: var(--jet-black);
+}
+
+.goal > h3{
+	font-size: 1.25rem;
+	font: var(--dynapuff);
+	color: var(--white);
+}
+
+.goal > h6{
+	font-size: 1rem;
+	text-align: center;
+	color: var(--orange);
+}
+
+.goal-progress{
+	display: flex;
+	margin: 0 0.25rem;
+	border: 1px solid var(--white);
+	border-radius: 0.75rem;
+	padding: 3px;
+	height: 1.5rem;
+}
+
+.goal-progress > .completed{
+	background-color: var(--fuchsia);
+}
+
+.goal-progress > .pending{
+	background-color: transparent;
+}
+
+.close-btn{
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	cursor: pointer;
+}
+
+.close-icon{
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
