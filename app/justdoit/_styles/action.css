@@ -1,0 +1,86 @@
+.actions{
+	margin-top: 1rem;
+	width: 50%;
+	background-color: transparent;
+	color: var(--white);
+}
+
+.actions > .input{
+	padding: 0.75rem;
+	margin: 0.75rem 0;
+	background-color: rgba(0,0,0,0.7);
+	border: 1px solid var(--white);
+	border-radius: 30px;
+	color: var(--white);
+}
+
+.actions .input > input{
+	background-color: transparent;
+}
+
+.actions ul{
+	position: relative;
+	text-align: center;
+	overflow-y: scroll;
+	font: var(--dynapuff);
+	color: var(--white);
+}
+
+.actions ul > li{
+	margin: 1rem 0;
+}
+
+.action{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid var(--white);
+	border-radius: 30px;
+	background: transparent;
+	transition-duration: 300ms;;
+	padding: 0.75rem;
+}
+
+.action > span{
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.action:hover{
+	transition-duration: 300ms;
+	font-size: 1.1rem;
+}
+
+.content{
+	text-align: left;
+	background: transparent;
+	transition-duration: 500ms;
+	overflow: hidden;
+}
+
+.checked{
+	color: var(--gray);
+	text-decoration-line: line-through;
+}
+
+.unchecked{
+	color: var(--white);
+}
+
+.checkbox{
+	cursor: pointer;
+	transition-duration: 500ms;
+	accent-color: var(--fuchsia);
+}
+
+.convert{
+	float: right;
+	background: transparent;
+	color: var(--green);
+}
+.edit{
+	float: right;
+	background: transparent;
+	color: var(--orange);
+}

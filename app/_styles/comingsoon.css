@@ -1,0 +1,15 @@
+main{
+	height: 100vh;
+	background: var(--jet-black);
+	text-align: center;
+}
+
+h1{
+	width: 40rem;
+	margin: auto;
+	position: relative;
+	top: 40%;
+	color: var(--yellow);
+	font-family: var(--poppins);
+	font-size: 3rem;
+}
