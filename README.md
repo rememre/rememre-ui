@@ -16,8 +16,8 @@
 ## Development
 
 ```bash
-git clone https:/github.com/jdi/liminalminds
-cd jdi
+git clone https:/github.com/rememre/rememre-ui
+cd rememre-ui
 npm i
 npm run dev
 ```
